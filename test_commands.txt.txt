@@ -1,0 +1,11 @@
+mkdir
+cd test
+pwd
+
+git remote remove origin
+git remote add origin https://kaustubh-77@github.com/Kaustubh-77/start_test.git
+
+git reset
+git add test_commands
+git commit -m "some commit"
+git push
